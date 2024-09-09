@@ -35,6 +35,7 @@ function setRegion(hotelName, region) {
 }
 
 function initHotel(name, region) {
+    if (name.length > 150) return 'Название отеля не должно превышать 150 символов'
     let file = './src/hotels.json'
     const data = JSON.parse(fs.readFileSync(file, 'utf-8'))
     data[name] = regions[region]

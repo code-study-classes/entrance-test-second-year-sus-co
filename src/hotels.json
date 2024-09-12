@@ -1,5 +1,14 @@
 {
-    "1": "east",
-    "adamant": "central",
-    "traboman": "east"
+    "adamant": {
+        "region": "central",
+        "rooms": [
+            null,
+            {
+                "id": 1,
+                "type": "apartments",
+                "space": "4",
+                "status": "occupied"
+            }
+        ]
+    }
 }

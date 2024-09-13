@@ -1,13 +1,25 @@
 {
     "adamant": {
+        "id": 96,
         "region": "central",
         "rooms": [
-            null,
             {
                 "id": 1,
-                "type": "apartments",
-                "space": "4",
-                "status": "occupied"
+                "type": "default",
+                "space": 2,
+                "status": "free"
+            }
+        ]
+    },
+    "tradoman": {
+        "id": 41,
+        "region": "central",
+        "rooms": [
+            {
+                "id": 1,
+                "type": "default",
+                "space": 2,
+                "status": "free"
             }
         ]
     }
